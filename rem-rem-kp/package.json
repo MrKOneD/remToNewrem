@@ -1,0 +1,14 @@
+{
+    "name": "rem-rem-kp",
+    "version": "1.0.0",
+    "description": "aaaaaa",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "kp",
+    "license": "ISC",
+    "dependencies": {
+        "through2": "^2.0.1"
+    }
+}

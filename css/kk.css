@@ -1,0 +1,182 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #F5f5f5;
+}
+.content{
+    padding-top:8.475rem;
+}
+.seeDetials{
+    &:active{
+        background-color: #F5F5F5;
+    }
+}
+.switch_pic{
+    position: fixed;
+    top:2.825rem;
+    z-index: 10;
+    width: 100%;
+    background-color: #ffffff;
+}
+.personalInfo{
+    position: fixed;
+    top:5.025rem;
+    z-index: 10;
+    width: 100%;
+}
+
+.personalInfo{
+     padding:0.75rem 0.75rem;
+     height: 3.45rem;
+     display:flex;
+     justify-content: space-around;
+     background:#fff;
+     border-bottom: 1px solid #dcdcdc;
+}
+ .leftInfo{
+     width:11.25rem;
+     height:1.95rem;
+     border-left: 0.2rem solid #00abec;
+}
+ .leftInfo p{
+     font-size:0.7rem;
+     color:#333;
+     padding-left:0.25rem;
+}
+ .personalInfo select{
+     width:6rem;
+     height:1.95rem;
+     padding-left: 0.75rem;
+     border: 1px solid #dcdcdc;
+     border-radius: 0.25rem;
+     font-size:0.7rem;
+     color:#999;
+     outline:none;
+     -webkit-appearance: none;
+}
+ .personalInfo select option{
+     height:1.95rem!important;
+     width:4.5rem!important;
+     font-size:0.35rem;
+}
+ .reportList{
+     padding:0.75rem;
+     margin-bottom:0.75rem;
+     background:#fff;
+     display:flex;
+     justify-content:space-around;
+}
+ .conDetials{
+     width:11.25rem;
+}
+ .conDetials p{
+     font-size:0.7rem;
+     color:#333;
+     margin-bottom:0.5rem;
+}
+ .conDetials p span{
+     color:#01abec;
+}
+ .seeDetials{
+     width:6rem;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+}
+ .seeDetials img{
+     width:1.825rem;
+     height:1.5rem;
+}
+ .seeDetials p{
+     font-size:0.6rem;
+     color:#999;
+     margin-top:0.5rem;
+}
+/*application*/
+ .infoTitle{
+     padding:0.75rem0 1.375rem 0;
+}
+ .infoTitle p{
+     font-size:0.8rem;
+     color:#333;
+     text-align:center;
+}
+ .personInfo{
+     border-top:0.025rem solid #eee;
+     border-bottom:1px solid #dcdcdc;
+     padding-top:1.375rem;
+     position:relative;
+     display:flex;
+     justify-content: space-around;
+}
+ .personInfo .left{
+     width:45%
+}
+ .personInfo .right{
+     width:45%;
+}
+ .personInfo .spNum{
+     position:absolute;
+     left:50%;
+     top:-0.625rem;
+     width:11.5rem;
+     height:1.25rem;
+     line-height:1.25rem;
+     text-align:center;
+     color:#fff;
+     font-size:0.6rem;
+     background:#0abb8f;
+     border-radius:0.625rem;
+     margin-left:-5.75rem;
+}
+ .personInfo .spNum span{
+     color:#fff;
+     margin-left:0.5rem;
+}
+ .personInfo p{
+     font-size:0.7rem;
+     color:#333;
+     margin-bottom:0.75rem;
+}
+ .personInfo p span{
+     color:#0abb8f;
+}
+ .checkDetials h3{
+     text-align:center;
+     font-size:0.8rem;
+     color:#333;
+     border-bottom:1px solid #dcdcdc;
+     padding:0.75rem0;
+}
+ .checkDetials ul li{
+     width:100%;
+     display:flex;
+     justify-content: space-around;
+     height:2.45rem;
+     line-height:2.45rem;
+     font-size:0.7rem;
+}
+ .checkDetials ul li span{
+     font-size:0.7rem;
+     color:#333;
+}
+.query-down-icon{
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#pic_card{
+    color: rgb(51,51,51);
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    margin-left: 0.25rem;
+}
